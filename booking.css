@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDF3;
+}
+
+.main-content {
+    padding: 20px;
+    display: grid;
+    row-gap: 20px; 
+}
+.section1{
+    background-color: #fff;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    padding-left: 20px;
+    color: #000;
+}
+h2{
+    color: #8793CF
+}
+.description-box {
+    display: flex;
+}
+.description-box p{
+    color: #7F8081;
+}
+.description-box img {
+    display: block;
+    margin: -100px auto 0 auto;
+    padding-top: 0;
+    padding-left: 350px;
+
+}
+
+.section2{
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.section2 h2{
+    color: #8793CF;
+    padding-left: 65px;
+    
+}
+
+.next{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin-top: 170px;
+}
+.choose-doctor{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.doctor-description {
+    width: 260px;
+    height: 290px;
+    border: 1px solid #ddd;
+    margin: 10px ;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px transparent;
+    padding: 30px;
+}
+.doctor1 {
+    background-color: #C8D7EC; 
+}
+.doctor2 {
+    background-color: #DEECC8; 
+}
+.doctor3 {
+    background-color: #FEE9E7; 
+}
+.doctor4 {
+    background-color: #E6F0FF; 
+}
+.doctor5 {
+    background-color: #dca6e2;
+}
+.doctor-description h3 {
+    margin-top: 5px;
+    color: #707AAE;
+    width: 180px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.doctor-description img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 360px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    padding-left: 60px;
+}
+.description{
+    padding-left: 60px;
+    font-size: 11px;
+    color: #696969;
+    font-weight: 500;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-top: -10px;
+}
+
+.icon-container img {
+    display: block;
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+
+.icon-container p {
+    margin: 1px 0; 
+    width: 180px;
+    font-size: 12px;
+    color: #7F8081;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #8793CF;
+    border: 2px solid #fff;
+    color: #fff;
+    object-fit: contain;
+    position: relative; 
+    left: 90px; 
+}
+.swal2-confirm {
+    color: #4CD9F8; 
+    background-color: #fff;
+}
+.swal2-cancel {
+    color: #4CD9F8; 
+    background-color: #fff;
+}
+.custom-confirm, .custom-cancel {
+    width: auto; 
+    padding: 10px 10px; 
+    white-space: nowrap; 
+}
